@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('◽️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/+9CKK8DlZlgUxOTE9')
+                InlineKeyboardButton('◽️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/dmttsi')
             ],
             [
                 InlineKeyboardButton('◽️ʜᴇʟᴩ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,8 +45,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('◽️ᴏᴡɴᴇʀ', url='https://t.me/GT_ben'),
-            InlineKeyboardButton('◽️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/+9CKK8DlZlgUxOTE9')
+            InlineKeyboardButton('◽️ᴏᴡɴᴇʀ', url='https://t.me/tsitkbydmt'),
+            InlineKeyboardButton('◽️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/dmttsi')
             ],[
             InlineKeyboardButton('◽️ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('◽️ᴀʙᴏᴜᴛ', callback_data='about')
@@ -94,8 +94,8 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('◽️ᴏᴡɴᴇʀ', url='https://t.me/GT_ben'),
-            InlineKeyboardButton('◽️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/+9CKK8DlZlgUxOTE9')
+            InlineKeyboardButton('◽️ᴏᴡɴᴇʀ', url='https://t.me/tsitkbydmt'),
+            InlineKeyboardButton('◽️ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/dmttsi')
             ],[
             InlineKeyboardButton('◽️ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('◽️ᴀʙᴏᴜᴛ', callback_data='about')
